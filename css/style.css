@@ -1,0 +1,489 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Space Grotesk;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 60px;
+    margin-bottom: 70px;
+
+}
+
+.head-ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    cursor: pointer;
+    color: #000000;
+    transform: translateX(150px);
+}
+
+.btn {
+    width: 231px;
+    height: 68px;
+    color: #000;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: #000;
+        color: white;
+    }
+}
+
+/* head */
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 158px;
+}
+
+.own {
+    width: 531px;
+    margin-left: -200px;
+}
+
+.own h2 {
+    font-size: 60px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+
+.own p {
+    line-height: 28px;
+    margin-bottom: 35px;
+}
+
+.btn2 {
+    padding: 16px;
+    background-color: #191A23;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: 400;
+    transition: all 0.3;
+
+    &:hover {
+        background-color: white;
+        color: #000;
+        border: 1px;
+    }
+}
+
+.imges {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+
+}
+
+.sectiontwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 40px;
+    gap: 40px;
+}
+
+.card {
+    width: 600px;
+    height: 310px;
+    background-color: #F3F3F3;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+    display: flex;
+}
+
+.her h2 {
+    border: 1px solid #B9FF66;
+    width: 100px;
+    background-color: rgb(185, 255, 102);
+}
+
+.her {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    width: 700px;
+    margin-bottom: 70px;
+    margin-left: 100px
+}
+
+.her {
+    width: 700px;
+    margin-bottom: 70px;
+    margin-left: 100px
+}
+
+.card h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: #B9FF66;
+}
+
+.card img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card .icon1 {
+margin-top: -50px;
+    margin-left: 81px;
+    margin-bottom: 71px;
+}
+
+.card-2 {
+    width: 600px;
+    height: 310px;
+    background-color: #B9FF66;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+    display: flex;
+}
+
+.card-2 h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.card-2 img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card-2 .icon2 {
+
+    margin-left: 81px;
+    margin-bottom: 71px;
+
+}
+
+.card-3 {
+    width: 600px;
+    height: 310px;
+    background-color: #191A23;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+    display: flex;
+}
+
+.card-3 h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: #FFFFFF;
+    text-align: center;
+}
+
+.card-3 img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card-3 .icon3 {
+    margin-top: -50px;
+    margin-left: 81px;
+    margin-bottom: 50px;
+}
+.card-4 {
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+    background-color: #F3F3F3;
+    display: flex;
+}
+.card-4 h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: #B9FF66;
+    text-align: center;
+}
+
+.card-4 img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card-4 .icon4 {
+    margin-top: -50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.card-5 {
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+    background-color: #B9FF66;
+    display: flex;
+}
+.card-5 h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+   background-color: #FFFFFF;
+    text-align: center;
+}
+
+.card-5 img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card-5 .icon5 {
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.card-6 {
+    width: 600px;
+    height: 310px;
+    border-radius: 45px;
+    border: 2px solid black;
+    border-bottom: 4px #000 solid;
+   background-color: #191A23;
+    display: flex;
+}
+.card-6 h3 {
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 150px;
+    background-color: #B9FF66;
+    text-align: center;
+}
+
+.card-6 img {
+    margin-top: 93px;
+    margin-left: 50px;
+}
+
+.card-6 .icon6 {
+    margin-top: -30px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+}
+.block{
+    width: 1280px;
+    height: 347px;
+    border-radius: 45px;
+   background-color: #F3F3F3;
+    margin-top: 123.5px;
+    margin-left: 200px;
+    display: flex;
+    margin-bottom: 120px;
+    
+   
+}
+.block h2{
+    padding-top: 60px;
+    padding-left: 60px;
+}
+.block p{
+    padding-top: 26px;
+    padding-left: 60px;
+    line-height: 22px;
+    width: 500px;
+    color: #000000;
+}
+.block button{
+    background-color: #191A23;
+    padding: 20px 35px;
+    margin-left: 60px;
+    margin-top: 46px;
+    border-radius: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.5s;
+
+    &:hover {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+}
+.block img{
+    padding-left: 186px;
+}
+.hertwo{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 70 px;
+    margin-left: 120px;
+}
+.hertwo h2{
+    margin: 100px;
+    background-color: #B9FF66;
+}
+.hertwo p{
+    width: 580px;
+}
+.sectionfour{
+    width: 1280px;
+    height: 326px;
+    background-color: #191A23;
+    margin-bottom: 100px;
+    margin-left: 200px;
+    border-radius: 45px;
+    display: flex;
+    margin-bottom: 120px;
+    
+}
+.sectionfour p{
+    width: 286px;
+    margin-top: 70px;
+    margin-left: 60px;
+    margin-right: 60px;
+    color: #ffffff;
+    
+}
+.sectionfour img{
+    width: 140px;
+    height: 28px;
+    margin: 270px;
+    margin-left: -340px;
+}
+.sectionfour .icon{
+margin-right: -60px;
+}
+.herthree{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80 px;
+    margin-left: 120px;
+}
+.herthree h2{
+    margin: 100px;
+    background-color: #B9FF66;
+}
+.herthree p{
+    width: 292px;
+}
+.sectionfive{
+    width: 1280px;
+    height: 279px;
+    background-color: #B9FF66;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+.sectionfive img{
+    margin-top: 41px;
+    margin-left: 60px;
+    margin-bottom: 30px;
+}
+
+.sectionfive p{
+    width: 1111px;
+    margin-top: 60px;
+    margin-left: 60px;
+    margin-bottom: 41px;
+}
+.contenier{
+    width: 1280px;
+    height: 159px;
+    background-color:#F3F3F3;
+    border-bottom: 5px solid black;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+.contenier .img{
+text-align: center;
+;padding: 41px 41px;
+}
+.contenier1{
+    width: 1280px;
+    height: 159px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid black;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+.contenier1 .img{
+text-align: center;
+;padding: 41px 41px;
+}
+.contenier2{
+    width: 1280px;
+    height: 159px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid black;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+.contenier2 .img{
+text-align: center;
+;padding: 41px 41px;
+}
+.contenier3{
+    width: 1280px;
+    height: 159px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid black;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 30px;
+}
+.contenier3 .img{
+text-align: center;
+;padding: 41px 41px;
+}
+.contenier4{
+    width: 1280px;
+    height: 159px;
+    background-color: #F3F3F3;
+    border-bottom: 5px solid black;
+    margin-left: 200px;
+    border-radius: 45px;
+    margin-bottom: 140px;
+}
+.contenier4 .img{
+text-align: center;
+;padding: 41px 41px;
+}
+.herthree{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 80 px;
+    margin-left: 120px;
+}
+.herthree h2{
+    margin: 100px;
+    background-color: #B9FF66;
+}
+.herthree p{
+    width: 473px;
+
+}
